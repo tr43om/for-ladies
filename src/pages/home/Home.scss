@@ -20,8 +20,11 @@
   }
 
   &__button {
+    text-decoration: none;
+    color: var(--primary);
+    border: 1px solid var(--primary);
     margin-top: 2rem;
-    padding: 1rem;
+    padding: 1.3rem;
     cursor: pointer;
   }
 }
