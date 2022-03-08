@@ -32,3 +32,14 @@ body {
   left: 0;
   top: 0;
 }
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+
+  a {
+    color: var(--secondary);
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}

@@ -1,7 +1,14 @@
 import "./App.css";
 // import { Input } from "./components/Input";
 
-import { BrowserRouter, Route, Routes, NavLink } from "react-router-dom";
+import {
+  BrowserRouter,
+  Route,
+  Routes,
+  NavLink,
+  useParams,
+  useNavigate,
+} from "react-router-dom";
 
 import { Alena } from "./pages/Alena";
 import { Anya } from "./pages/Anya";
@@ -15,25 +22,20 @@ import { Home } from "./pages/home/Home";
 
 export const App = () => {
   return (
-    <BrowserRouter>
-      <nav className="navigation">
-        <h1>Girls</h1>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/Katya">Катя</NavLink>
-        <NavLink to="/VikaB">Вика Б</NavLink>
-      </nav>
-      ;
-      <Routes>
-        <Route path="/Lina" element={<Lina />} />
-        <Route path="/" element={<Home />} />
-        <Route path="/Katya" element={<Katya />} />
-        <Route path="/VikaB" element={<VikaB />} />
-        <Route path="/VikaP" element={<VikaP />} />
-        <Route path="/Alena" element={<Alena />} />
-        <Route path="/Jenya" element={<Jenya />} />
-        <Route path="/Diana" element={<Diana />} />
-        <Route path="/Anya" element={<Anya />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/Lina" element={<Lina />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Katya" element={<Katya />} />
+          <Route path="/VikaB" element={<VikaB />} />
+          <Route path="/VikaP" element={<VikaP />} />
+          <Route path="/Alena" element={<Alena />} />
+          <Route path="/Jenya" element={<Jenya />} />
+          <Route path="/Diana" element={<Diana />} />
+          <Route path="/Anya" element={<Anya />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 };

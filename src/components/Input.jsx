@@ -50,7 +50,7 @@ export const Input = ({ label, name, question }) => {
       <label htmlFor="name" className="form__label" name={label}>
         {label}
       </label>
-      <input type="submit" value="send" />
+      <input type="submit" value="send" className="hidden" />
     </form>
   );
 };

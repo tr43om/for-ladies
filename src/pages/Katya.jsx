@@ -1,4 +1,5 @@
 import { Input } from "../components/Input";
+import { useLocation } from "react-router-dom";
 
 export const Katya = () => {
   const name = "Катя";
