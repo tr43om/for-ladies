@@ -7,8 +7,8 @@ export const Alena = () => {
     <>
       <Question question={riddle.question} />
       <Input
-        label="АТВИЧАЙ, АЛЕНА"
-        name="Алена"
+        label="АТВИЧАЙ, АЛЁНА"
+        name="Алёна"
         answer={riddle.answer}
         question={riddle.question}
       />
