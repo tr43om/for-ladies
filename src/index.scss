@@ -1,0 +1,28 @@
+:root {
+  --primary: #f3ec78;
+  --secondary: #af4261;
+  --white: #fff;
+  --gray: #9b9b9b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 1.5rem;
+  background-color: #222222;
+  color: var(--secondary);
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
