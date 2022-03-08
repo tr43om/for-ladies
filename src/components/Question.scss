@@ -1,0 +1,13 @@
+.question {
+  margin-bottom: 4rem;
+  &__title {
+    color: var(--primary);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+    font-style: italic;
+  }
+}
