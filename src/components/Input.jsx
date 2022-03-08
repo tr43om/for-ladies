@@ -75,7 +75,9 @@ export const Input = ({ label, name, question, answer }) => {
           <div>ну...зато ты красивая 😏</div>
         </>
       )}
-      {isCorrectAnswer && <div>КРАСАВА! ПРАВИЛЬНО! ЧЕКАЙ ВК</div>}
+      {isCorrectAnswer && (
+        <div style={{ color: "green" }}>КРАСАВА! ПРАВИЛЬНО! ЧЕКАЙ ВК</div>
+      )}
     </>
   );
 };
