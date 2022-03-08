@@ -21,23 +21,39 @@ body {
   color: var(--secondary);
 }
 
+button {
+  all: unset;
+  font: inherit;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
 #root {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 5rem 0;
 }
 
 .navigation {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
+  &__links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  &__name {
+    width: 20rem;
+    text-align: center;
+    border: 1px solid currentColor;
+    padding: 2rem;
+  }
 
-.navigation {
-  display: flex;
-  flex-direction: column;
+  &__title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
 
   a {
     color: var(--secondary);

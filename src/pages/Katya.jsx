@@ -1,15 +1,21 @@
 import { Input } from "../components/Input";
-import { useLocation } from "react-router-dom";
 import { Question } from "../components/Question";
+import { riddles } from "../data/riddles";
 
 export const Katya = () => {
+  const riddle = riddles[Math.floor(Math.random() * riddles.length)];
   const name = "Катя";
-  const question = "Как будет охота на сов по французски?";
+  const question = riddle.question;
 
   return (
     <>
       <Question question={question} />
-      <Input label="атвичай, Катя" name={name} question={question} />
+      <Input
+        label="атвичай, Катя"
+        name={name}
+        question={question}
+        answer={riddle.answer}
+      />
     </>
   );
 };

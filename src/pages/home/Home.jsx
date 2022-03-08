@@ -6,18 +6,6 @@ export const Home = () => {
   console.log(search);
   return (
     <>
-      <nav className="navigation">
-        <h1>Первый вопрос: твоё имя</h1>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/Katya?Katya">👉 Катя</NavLink>
-        <NavLink to="/Diana">👉 Диана</NavLink>
-        <NavLink to="/VikaB">👉 Вика Б</NavLink>
-        <NavLink to="/VikaP">👉 Вика П</NavLink>
-        <NavLink to="/Jenya">👉 Женя</NavLink>
-        <NavLink to="/Anya">👉 Аня</NavLink>
-        <NavLink to="/Lina">👉 Лина</NavLink>
-        <NavLink to="/Alena">👉 Алена</NavLink>
-      </nav>
       <header className="home">
         <h1 className="home__title">Дорогие девушки 🌷</h1>
         <h3 className="home__subtitle">ЕСТЬ ДЕЛО </h3>
@@ -32,6 +20,9 @@ export const Home = () => {
           <li className="home__item">Лина - иди</li>
         </ul>
       </header>
+      <NavLink className="home__button" to="/whoIsIt">
+        Я пришла. Что дальше то?
+      </NavLink>
     </>
   );
 };

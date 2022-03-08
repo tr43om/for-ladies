@@ -3,11 +3,13 @@
   &__title {
     color: var(--primary);
     font-size: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
   }
 
   &__text {
     font-size: 1.5rem;
     font-style: italic;
+    text-align: center;
   }
 }

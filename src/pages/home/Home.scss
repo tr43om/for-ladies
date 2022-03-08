@@ -18,4 +18,10 @@
     text-align: left;
     list-style-type: none;
   }
+
+  &__button {
+    margin-top: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+  }
 }

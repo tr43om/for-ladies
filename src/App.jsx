@@ -20,6 +20,8 @@ import { VikaB } from "./pages/VikaB";
 import { VikaP } from "./pages/VikaP";
 import { Home } from "./pages/home/Home";
 
+import { WhoIsIt } from "./pages/WhoIsIt";
+
 export const App = () => {
   return (
     <>
@@ -34,6 +36,7 @@ export const App = () => {
           <Route path="/Jenya" element={<Jenya />} />
           <Route path="/Diana" element={<Diana />} />
           <Route path="/Anya" element={<Anya />} />
+          <Route path="/whoIsIt" element={<WhoIsIt />} />
         </Routes>
       </BrowserRouter>
     </>
