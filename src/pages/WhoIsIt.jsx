@@ -12,10 +12,10 @@ export const WhoIsIt = () => {
           💕 Я Диана
         </NavLink>
         <NavLink to="/VikaB" className="navigation__name">
-          💕 Я Вика Б
+          💕 Я Вика
         </NavLink>
         <NavLink to="/VikaP" className="navigation__name">
-          💕 Я Вика П
+          💕 Я Пика
         </NavLink>
         <NavLink to="/Jenya" className="navigation__name">
           💕 Я Женя
