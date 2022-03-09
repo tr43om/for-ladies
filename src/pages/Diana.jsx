@@ -2,15 +2,14 @@ import { Input } from "../components/Input";
 import { Question } from "../components/Question";
 import { riddles } from "../data/riddles";
 export const Diana = () => {
-  const riddle = riddles[Math.floor(Math.random() * riddles.length)];
   return (
     <>
-      <Question question={riddle.question} />
+      <Question question={"где Катя было целый семестр?"} />
       <Input
         label="АТВИЧАЙ, ДИАНА"
         name="Диана"
-        answer={riddle.answer}
-        question={riddle.question}
+        answer={"в Брюсселе"}
+        question={"где Катя была целый семестр?"}
       />
     </>
   );

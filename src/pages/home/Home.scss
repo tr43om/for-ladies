@@ -19,18 +19,33 @@
   &__subtitle {
     color: var(--primary);
     font-size: 1.3rem;
+
+    &--5 {
+      color: var(--primary);
+      margin-top: 1rem;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
   }
 
   &__list {
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
+    max-width: 490px;
   }
 
   &__item {
+    color: #fff;
     text-align: left;
     list-style-type: none;
+  }
+
+  &__name {
+    color: var(--secondary);
+    font-weight: bold;
+    font-size: 1.7rem;
   }
 
   &__button {
@@ -42,5 +57,13 @@
     margin-top: 2rem;
     padding: 1.3rem;
     cursor: pointer;
+  }
+
+  &__dont {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: var(--primary);
   }
 }

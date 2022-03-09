@@ -71,8 +71,7 @@ export const Input = ({ label, name, question, answer }) => {
 
       {isCorrectAnswer != null && !isCorrectAnswer && (
         <>
-          <div>чуть-чуть не правильный ответ.</div>
-          <div>ну...зато ты красивая 😏</div>
+          <div>😏</div>
         </>
       )}
       {isCorrectAnswer && (

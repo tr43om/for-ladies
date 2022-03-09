@@ -6,28 +6,28 @@ export const WhoIsIt = () => {
       <h1 className="navigation__title">Первый вопрос: твоё имя 🤔</h1>
       <div className="navigation__links">
         <NavLink to="/Katya?Katya" className="navigation__name">
-          👉 Катя
+          💕 Я Катя
         </NavLink>
         <NavLink to="/Diana" className="navigation__name">
-          👉 Диана
+          💕 Я Диана
         </NavLink>
         <NavLink to="/VikaB" className="navigation__name">
-          👉 Вика Б
+          💕 Я Вика Б
         </NavLink>
         <NavLink to="/VikaP" className="navigation__name">
-          👉 Вика П
+          💕 Я Вика П
         </NavLink>
         <NavLink to="/Jenya" className="navigation__name">
-          👉 Женя
+          💕 Я Женя
         </NavLink>
         <NavLink to="/Anya" className="navigation__name">
-          👉 Аня
+          💕 Я Аня
         </NavLink>
         <NavLink to="/Lina" className="navigation__name">
-          👉 Лина
+          💕 Я Лина
         </NavLink>
         <NavLink to="/Alena" className="navigation__name">
-          👉 Алена
+          💕 Я Алена
         </NavLink>
       </div>
     </nav>

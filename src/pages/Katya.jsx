@@ -3,9 +3,8 @@ import { Question } from "../components/Question";
 import { riddles } from "../data/riddles";
 
 export const Katya = () => {
-  const riddle = riddles[Math.floor(Math.random() * riddles.length)];
   const name = "Катя";
-  const question = riddle.question;
+  const question = riddles[3].question;
 
   return (
     <>
@@ -14,7 +13,7 @@ export const Katya = () => {
         label="атвичай, Катя"
         name={name}
         question={question}
-        answer={riddle.answer}
+        answer={riddles[3].answer}
       />
     </>
   );

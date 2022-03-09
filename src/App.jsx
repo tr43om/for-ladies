@@ -28,7 +28,7 @@ export const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/Lina" element={<Lina />} />
-          <Route path="/" element={<Home />} />
+
           <Route path="/Katya" element={<Katya />} />
           <Route path="/VikaB" element={<VikaB />} />
           <Route path="/VikaP" element={<VikaP />} />
@@ -36,7 +36,7 @@ export const App = () => {
           <Route path="/Jenya" element={<Jenya />} />
           <Route path="/Diana" element={<Diana />} />
           <Route path="/Anya" element={<Anya />} />
-          <Route path="/whoIsIt" element={<WhoIsIt />} />
+          <Route path="/" element={<WhoIsIt />} />
         </Routes>
       </BrowserRouter>
     </>

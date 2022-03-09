@@ -31,6 +31,7 @@ body {
 }
 
 .navigation {
+  color: #fff;
   &__links {
     display: flex;
     flex-direction: column;
@@ -42,9 +43,21 @@ body {
     width: 10rem;
     border: 1px solid currentColor;
     padding: 2rem;
+    background-color: var(--primary);
+    background-image: linear-gradient(
+      to right,
+      var(--secondary),
+      var(--primary)
+    );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
   }
 
   &__title {
+    text-transform: uppercase;
     font-size: 2rem;
     margin-bottom: 2rem;
   }
